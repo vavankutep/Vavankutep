@@ -1,0 +1,346 @@
+
+/* Меню сайта */
+#menu {
+	list-style: none;
+	padding: 0;
+	margin-left: 10;
+	margin-top: 25px;
+	width: 1200px;
+	height: 150px;
+	position: relative;
+}
+
+#menu li {
+	text-align: center;
+	font-size: 2.0em;
+	font-style: normal;
+	font-variant: small-caps;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	margin: 30px;
+}
+}
+#menu a {
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 3;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#menu a:link, a:visited, a:focus {
+	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.4);
+	background-color: #EEE9E9;
+ }
+#menu a:hover {
+	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.7);
+	background-color: #CFCFCF;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+	border-radius: 5px;
+}
+#menu a:active {
+	background: orange;
+	color: white;
+}
+#menu span {
+	display: none;
+	position: absolute;
+}
+#menu a:hover span{
+	display: block;
+
+}
+.remont {
+	left:65px;
+	top: 45px;
+}
+.remont a: {
+
+	left: 96px;
+	top: 80px;
+}
+.remont span {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.0em;
+	font-style: italic;
+	left: 120px;
+	top: 70px;
+	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.7);
+	background-color: #CFCFCF;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+	border-radius: 5px;
+}
+.price {
+	left: 330px;
+	top: 45px;
+}
+.price span {
+	width: 140px;
+	height: 39px;
+	background: url(images/price_1.jpg) no-repeat;
+	left: 82px;
+	top: 70px;
+}
+.exsclusive {
+	left: 580px;
+	top: 50px;
+}
+.exsclusive span {
+	width: 150px;
+	height: 40px;
+	background: url(images/ex_1.jpg) no-repeat;
+	left: 150px;
+	top: 65px;
+	}
+
+.kolektiv {
+	top: 40px;
+}
+.kolektiv span {
+	width: 150px;
+	height: 40px;
+	background: url(images/kol_1.jpg) no-repeat;
+	left: 150px;
+	top: 71px;
+}
+		/*Меню таблиці*/
+#prise {
+	margin: 0;
+	font-family: sans-serif;
+	position: relative;
+	width: 100%;
+	height: 70px;
+}
+ul {
+	padding: 0;
+	width: 1200px;
+	margin-left: 44px;
+	margin-top: -10px;
+}
+li {
+	display: inline;
+	margin-right: 10px;
+	font-size: 18px;
+}
+a {
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 3;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a:link, a:visited, a:focus {
+	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.4);
+	background-color: #EEE9E9;
+	border-radius: 5px;
+}
+a:hover {
+	box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.7);
+	background-color: ##CFCFCF;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25));
+	border-radius: 5px;
+}
+a:active {
+	background: orange;
+	color: white;
+}
+		/* Меню ремонту*/
+#menu2{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	height: 370px;
+	background-color: none;
+	position: relative;
+	}
+#menu2 a {
+	display: block;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+#menu2 a:hover {
+	background-position: left bottom;
+}
+.klu4 {
+	width: 300px;
+	height: 366px;
+	background: url(images/klu4-3.jpg) no-repeat;
+	left: 95px;
+	top: -16px;
+	}
+.klu4 a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/klu4-3.jpg) no-repeat;
+	left: 95px;
+	top: -16px;
+	}
+.kapital {
+	width: 300px;
+	height: 366px;
+	background: url(images/kapital-3.jpg) no-repeat;
+	left: 493px;
+	top: -15px;
+	}
+.kapital a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/kapital-3.jpg) no-repeat;
+	left: 493px;
+	top: -15px;
+	}
+.etap {
+	width: 300px;
+	height: 366px;
+	background: url(images/etap-3.jpg) no-repeat;
+	left: 892px;
+	top:-15px;
+	}
+.etap a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/etap-3.jpg) no-repeat;
+	left: 892px;
+	top: -15px;
+	}
+
+#menu3{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	height: 900px;
+	background-color: none;
+	position: relative;
+	}
+#menu3 a {
+	display: block;
+	text-indent: -900%;
+	position: absolute;
+	outline: none;
+}
+#menu3 a:hover {
+	background-position: left bottom;
+}
+
+.zehla {
+	width: 300px;
+	height: 366px;
+	background: url(images/zehla.jpg) no-repeat;
+	left: 95px;
+	top: -16px;
+	}
+	.zehla a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/zehla.jpg) no-repeat;
+	left: 95px;
+	top: -16px;
+	}
+.kaminnja {
+	width: 300px;
+	height: 366px;
+	background: url(images/kaminnja.jpg) no-repeat;
+	left: 493px;
+	top: -15px;
+	}
+.kaminnja a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/kaminnja.jpg) no-repeat;
+	left: 493px;
+	top: -15px;
+	}
+.malunok {
+	width: 300px;
+	height: 366px;
+	background: url(images/malunok.jpg) no-repeat;
+	left: 892px;
+	top:-15px;
+	}
+.malunok a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/malunok.jpg) no-repeat;
+	left: 892px;
+	top: -15px;
+	}
+.kaminu {
+	width: 300px;
+	height: 366px;
+	background: url(images/kaminu.jpg) no-repeat;
+	left: 95px;
+	top: 457px;
+	}
+.kaminu a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/kaminu.jpg) no-repeat;
+	left: 95px;
+	top: 457px;
+	}
+.ykladka {
+	width: 300px;
+	height: 366px;
+	background: url(images/ykladka.jpg) no-repeat;
+	left: 496px;
+	top: 457px;
+	}
+.ykladka a: {
+	width: 300px;
+	height: 366px;
+	background: url(images/ykladka.jpg) no-repeat;
+	left: 495px;
+	top: 457px;
+	}
+	/* Контент сторінка */
+	#content {
+		margin: 0px;
+		padding: 0px;
+		margin-top: 0px;
+		background: none;
+		font-size: 20px;
+		width: 1200px;
+		height: 800px;
+		}
+	#content1 {
+		margin: 90px;
+		padding: 0px;
+		margin-top: 0px;
+		background: none;
+		font-size: 20px;
+		width: 950px;
+		height:600px;
+	    overflow: auto;
+		}
+
+	h1 {
+		font-family: Arial,;
+		font-size: 20px;
+		font-style: italic;
+		}
+	h2 {
+		font-family: none,;
+		font-size: 20px;
+		font-style: none;
+	    border-style: solid;
+	    border-top: 0px;
+		}
+	h3 {
+		font-family:sans-serif;
+		font-size: 24px;
+		font-style: none;
+	    border-style: none;
+	    border-top: 0px;
+	    color: red
+		}
+	p { font: 14pt/17pt Sans-Serif Italic  }
